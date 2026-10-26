@@ -1,4 +1,4 @@
 # GTR2L
-Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving (Under Review)
+Paper titled "Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving" has been received by IEEE Transactions on Neural Networks and Learning Systems (TNNLS) !!!
 
-Once the paper is accepted, the code will be released.
+The code will be released soon!
