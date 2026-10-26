@@ -12,7 +12,11 @@ We are organizing the code and will release it in early November.
 In all demonstrations, the red-colored car represents the GTR2L-driven autonomous vehicle.
 
 1. Unprotected left-turn task at an unsignalized intersection with oncoming traffic (TrafficEnv1-v0)
-<img src="GIFs/gifs_env1/episode_1.gif" width="440" alt="TrafficEnv1-v0">
+<p align="center">
+  <img src="GIFs/gifs_env1/episode_1.gif" width="440" alt="TrafficEnv1-v0" loop>
+</p>
 
 3. Unprotected straight-crossing at an unsignalized intersection with crossing traffic (TrafficEnv2-v0)
-<img src="GIFs/gifs_env2/episode_1.gif" width="440" alt="TrafficEnv1-v0">
+<p align="center">
+  <img src="GIFs/gifs_env2/episode_1.gif" width="440" alt="TrafficEnv1-v0" loop>
+</p>
