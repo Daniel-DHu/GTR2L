@@ -4,7 +4,10 @@ This repository is the implementation of our research "Game-Theoretic Risk-Shape
 We are organizing the code and will release it in early November.
 
 ## Introduction
-
+Schematic of the Proposed GTR2L Framework for Safe Autonomous Driving
+<p align="center">
+  <img src="Frame.png" width="600" alt="figure caption">
+</p>
 
 
 ## Demonstration
