@@ -1,0 +1,80 @@
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id= "Auto" jmDriveAfterRedTime="100" jmDriveRedSpeed="15.0" accel="7.60000" decel="7.600000" sigma="0.000" maxSpeed = "30.0000" length="5.000000" color="1,0,0" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013"/>
+	<vType id= "car" accel="1.0000000" decel="1.6000000" sigma="0.1" maxSpeed = "15.00" length="4.000000" color="0,1,0" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.01" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "car1" accel="1.000000" decel="2.00000" sigma="0.01" maxSpeed = "14.00" length="4.000000" color="0,1,1" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.01" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "car2" accel="2.000000" decel="3.00000" sigma="0.1" maxSpeed = "13.00" length="4.000000" color="1,1,1" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "car3" jmDriveAfterRedTime="10" jmDriveRedSpeed="15.0" accel="5.600000" decel="6.0000" sigma="0.0100" maxSpeed = "16.00" length="4.000000" color="1,0,1" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "ambulance1" jmDriveAfterRedTime="15" jmDriveRedSpeed="14.0" accel="5.600000" decel="6.0000" sigma="0.100" maxSpeed = "16.00" length="4.000000" color="1,1,0" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "ambulance2" jmDriveAfterRedTime="20" jmDriveRedSpeed="15.0" accel="5.000000" decel="6.6000" sigma="0.0100" maxSpeed = "16.00" length="4.000000" color="1,1,1" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "car4" accel="2.000000" decel="3.00000" sigma="0.1" maxSpeed = "16.00" length="4.000000" color="1,1,1" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "car5" accel="3.000000" decel="4.00000" sigma="0.01" maxSpeed = "18.00" length="4.000000" color="1,0,1" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "car6" accel="1.000000" decel="2.00000" sigma="0.1" maxSpeed = "20.00" length="4.000000" color="0,1,0" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+    <vType id= "car7" accel="4.000000" decel="5.00000" sigma="0.01" maxSpeed = "30.00" length="4.000000" color="0,1,1" vClass="passenger" minGap="1.0" tau="1.0" laneChangeModel="LC2013" lcOpposite="1" lcCooperative="0.1" lcSpeedGain="0.02" lcStrategic="100000" lcKeepRight="100000"/>
+
+
+	<route id="AC" edges="AB1 AB2 BC1 BC2" />
+	<route id="AD" edges="AB1 AB2 BD1 BD2" />
+	<route id="AF" edges="AB1 AB2 BE EF1 EF2" />
+	<route id="AG" edges="AB1 AB2 BE EG1 EG2" />
+	<route id="AH" edges="AB1 AB2 BE EH1 EH2" />
+	<route id="CA" edges="CB1 CB2 BA1 BA2" />
+	<route id="CD" edges="CB1 CB2 BD1 BD2" />
+	<route id="CF" edges="CB1 CB2 BE EF1 EF2" />
+	<route id="CG" edges="CB1 CB2 BE EG1 EG2" />
+	<route id="CH" edges="CB1 CB2 BE EH1 EH2" />
+	<route id="DA" edges="DB1 DB2 BA1 BA2" />
+	<route id="DC" edges="DB1 DB2 BC1 BC2" />
+	<route id="DF" edges="DB1 DB2 BE EF1 EF2" />
+	<route id="DG" edges="DB1 DB2 BE EG1 EG2" />
+	<route id="DH" edges="DB1 DB2 BE EH1 EH2" />
+	<route id="FA" edges="FE1 FE2 EB BA1 BA2" />
+	<route id="FC" edges="FE1 FE2 EB BC1 BC2" />
+	<route id="FD" edges="FE1 FE2 EB BD1 BD2" />
+	<route id="FG" edges="FE1 FE2 EG1 EG2" />
+	<route id="FH" edges="FE1 FE2 EH1 EH2" />
+	<route id="GA" edges="GE1 GE2 EB BA1 BA2" />
+	<route id="GC" edges="GE1 GE2 EB BC1 BC2" />
+	<route id="GD" edges="GE1 GE2 EB BD1 BD2" />
+	<route id="GF" edges="GE1 GE2 EF1 EF2" />
+	<route id="GH" edges="GE1 GE2 EH1 EH2" />
+	<route id="HA" edges="HE1 HE2 EB BA1 BA2" />
+	<route id="HC" edges="HE1 HE2 EB BC1 BC2" />
+	<route id="HD" edges="HE1 HE2 EB BD1 BD2" />
+	<route id="HF" edges="HE1 HE2 EF1 EF2" />
+	<route id="HG" edges="HE1 HE2 EG1 EG2" />
+
+
+	<flow id="car_AC" type="car1" route="AC" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_AD" type="car" route="AD" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_AF" type="car2" route="AF" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_AG" type="car3" route="AG" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_AH" type="car" route="AH" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_CA" type="car3" route="CA" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_CD" type="car" route="CD" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_CF" type="ambulance2" route="CF" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_CG" type="car" route="CG" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_CH" type="car1" route="CH" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_DA" type="car" route="DA" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_DC" type="car4" route="DC" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_DF" type="car" route="DF" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_DG" type="ambulance1" route="DG" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_DH" type="car" route="DH" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_FA" type="car" route="FA" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_FC" type="car2" route="FC" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_FD" type="car" route="FD" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_FG" type="car" route="FG" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_FH" type="car4" route="FG" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_GA" type="ambulance1" route="GA" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_GC" type="car6" route="GC" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_GD" type="car" route="GD" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_GF" type="car5" route="GF" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_GH" type="car" route="GH" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_HA" type="car5" route="HA" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_HC" type="car" route="HC" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_HD" type="car3" route="HD" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_HF" type="car4" route="HF" begin="0" end="3600" probability="0.0266" />
+	<flow id="car_HG" type="ambulance2" route="HG" begin="0" end="3600" probability="0.0266" />
+
+	<route id="double" edges= "AB1 AB2 BE EH1 EH2"/>
+    <vehicle id="Auto" color="1,0,0" departLane="2" depart="50" type="Auto" route="double"/>
+</routes>
