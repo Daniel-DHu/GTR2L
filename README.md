@@ -49,11 +49,11 @@ The required packages can be installed using
 	pip install -r requirements.txt
 
 ### Run
- There are five traffic environments, including four short-distance tasks (TrafficEnv1-v0, TrafficEnv2-v0, TrafficEnv3-v0, and TrafficEnv4-v0). 
+ There are four traffic environments, including TrafficEnv1-v0, TrafficEnv2-v0, TrafficEnv3-v0, and TrafficEnv4-v0. 
  For example, users can leverage the following command to run the code in the terminal and train the autonomous driving agent under the unprotected left turn task at an unsignalized intersection with oncoming trafﬁc:
 
-	python run_env_1_2.py --env_name TrafficEnv1-v0 or TrafficEnv2-v0
- Users can also use the following command to run the code in the terminal and train the the autonomous driving agent under the traffic light and long-term goal-driven navigation task with mixed trafﬁc ﬂows:
+	python run_env_1_2.py --env_name TrafficEnv1-v0
+ Users can also use the following command to run the code in the terminal and train the the autonomous driving agent under the signalized intersection and long-term goal-driven navigation task with mixed trafﬁc ﬂows:
 
 	python run_env_3.py --env_name TrafficEnv3-v0
 	python run_env_4.py --env_name TrafficEnv4-v0
