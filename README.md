@@ -1,8 +1,6 @@
 # GTR2L
 This repository is the implementation of our research "Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving". This research has been accepted by IEEE TNNLS.
 
-We are organizing the code and will release it in early November.
-
 ## Introduction
 Schematic of the Proposed GTR2L Framework for Safe Autonomous Driving
 <p align="center">
