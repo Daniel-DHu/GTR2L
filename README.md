@@ -37,3 +37,44 @@ In all demonstrations, the red-colored car represents the GTR2L-driven autonomou
 <p align="center">
   <img src="GIFs/gifs_env4/episode_1.gif" width="440" alt="TrafficEnv4-v0">
 </p>
+
+## User Guidance
+### Installation
+This repo is developed using Python 3.7 and PyTorch 1.3.1+CPU in Ubuntu 16.04. 
+
+We utilize the proposed FNI-RL approach to train the autonomous driving agent in the popular [Simulation of Urban Mobility](https://eclipse.dev/sumo/) (SUMO, Version 1.2.0) platform.
+
+We believe that our code can also run on other operating systems with different versions of Python, PyTorch and SUMO, but we have not verified it.
+
+The required packages can be installed using
+
+	pip install -r requirements.txt
+
+### Run
+ There are five traffic environments, including four short-distance tasks (TrafficEnv1-v0, TrafficEnv2-v0, TrafficEnv3-v0, and TrafficEnv4-v0). 
+ For example, users can leverage the following command to run the code in the terminal and train the autonomous driving agent under the unprotected left turn task at an unsignalized intersection with oncoming trafﬁc:
+
+	python run_env_1_2.py --env_name TrafficEnv1-v0 or TrafficEnv2-v0
+ Users can also use the following command to run the code in the terminal and train the the autonomous driving agent under the traffic light and long-term goal-driven navigation task with mixed trafﬁc ﬂows:
+
+	python run_env_3.py --env_name TrafficEnv3-v0
+	python run_env_4.py --env_name TrafficEnv4-v0
+
+## Citation
+If you find this repository helpful for your research, we would greatly appreciate it if you could star our repository and cite our work.
+```
+@article{hu2025game,
+  title={Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving},
+  author={Hu, Dong and Hu, Fenqing and Yang, Lidong and Huang, Chao},
+  journal={arXiv preprint arXiv:2510.10960},
+  year={2025}
+}
+```
+```
+@article{hu2026self,
+  title={Self-aware active learning enables continual improvement in autonomous driving},
+  author={Hu, Dong and Huang, Chao and Lee, Carman KM and Kanoulas, Dimitrios},
+  journal={arXiv preprint arXiv:2608.29772},
+  year={2026}
+}
+```
