@@ -1,5 +1,6 @@
 # GTR2L
-This repository is the implementation of our research "Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving". This research has been accepted by IEEE TNNLS.
+This repository is the implementation of our research "**[Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving]**". This research has been published in [IEEE TNNLS](https://ieeexplore.ieee.org/document/11793015). 
+
 
 ## Introduction
 Schematic of the Proposed GTR2L Framework for Safe Autonomous Driving
@@ -61,12 +62,15 @@ The required packages can be installed using
 ## Citation
 If you find this repository helpful for your research, we would greatly appreciate it if you could star our repository and cite our work.
 ```
-@article{hu2025game,
-  title={Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving},
-  author={Hu, Dong and Hu, Fenqing and Yang, Lidong and Huang, Chao},
-  journal={arXiv preprint arXiv:2510.10960},
-  year={2025}
-}
+@ARTICLE{11793015,
+  author={Hu, Dong and Hu, Fengqing and Yang, Lidong and Huang, Chao},
+  journal={IEEE Transactions on Neural Networks and Learning Systems}, 
+  title={Game-Theoretic Risk-Shaped Reinforcement Learning for Safe Autonomous Driving}, 
+  year={2026},
+  volume={},
+  number={},
+  pages={1-14},
+  doi={10.1109/TNNLS.2026.3748216}}
 ```
 ```
 @article{hu2026self,
